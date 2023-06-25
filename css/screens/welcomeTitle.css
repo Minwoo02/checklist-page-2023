@@ -1,0 +1,67 @@
+.welcomeTitle {
+  margin: 0px 30px;
+}
+
+.welcomeTitle__name #greeting {
+  font-weight: 600;
+  font-size: 100px;
+}
+
+.welcomeTitle__quotes {
+  margin: 20px 0px;
+  display: flex;
+}
+
+#quote {
+  padding: 30px;
+  background-color: rgb(214, 189, 231);
+  border-radius: 50px;
+}
+
+.todo__box {
+  background-color: rgb(214, 189, 231);
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#todo-form {
+  margin-top: 30px;
+}
+
+#todo-form input {
+  width: 500px;
+  height: 50px;
+  padding: 0px 20px;
+  border-radius: 100px;
+  color: black;
+}
+
+#todo-list li:first-child {
+  margin-top: 20px;
+}
+
+#todo-list {
+  position: relative;
+}
+
+#todo-list li {
+  margin: 10px 0px;
+  font-size: 30px;
+  background-color: #fff44f;
+  box-shadow: 0px 0px 30px 0px rgba(110, 98, 28, 0.2);
+  border-radius: 100px;
+  padding: 20px 30px;
+}
+
+#todo-list button {
+  position: absolute;
+  right: 30px;
+  border: none;
+  background-color: #fff44f;
+  font-size: 20px;
+}
+
+#todo-list button:hover {
+  cursor: pointer;
+}

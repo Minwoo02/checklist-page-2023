@@ -7,7 +7,7 @@
 /* Screens */
 @import "/css/background.css";
 @import "/css/screens/modal.css";
-
+@import "/css/screens/welcomeTitle.css";
 
 .hidden {
   display: none;
