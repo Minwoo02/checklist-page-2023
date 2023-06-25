@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
-@import "/css/reset.css";
+@import "reset.css";
+@import "background.css";
 
 /* Components */
 @import "components/status-bar.css";
 
 /* Screens */
-@import "/css/background.css";
-@import "/css/screens/modal.css";
-@import "/css/screens/welcomeTitle.css";
+@import "screens/modal.css";
+@import "screens/welcomeTitle.css";
 
 .hidden {
   display: none;
