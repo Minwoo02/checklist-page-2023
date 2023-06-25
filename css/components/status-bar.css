@@ -12,6 +12,12 @@
   font-size: 15px;
 }
 
+.status-bar .status-bar__column:first-child span {
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
 .fa-bars {
   margin-right: 10px;
 }
