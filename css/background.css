@@ -1,0 +1,6 @@
+.background .background__img {
+  background-size: cover;
+  object-fit: cover; /*비율유지*/
+  width: 100%;
+  height: 300px;
+}

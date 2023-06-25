@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>With A Plan..</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <i class="fa-solid fa-bars fa-lg"></i>
+        <span>Home</span>
+      </div>
+
+      <div class="status-bar__column">
+        <div id="weather">
+          <span></span>
+          <span></span>
+        </div>
+        <div id="clock">
+          <span id="clock__dates"></span>
+          <span id="clock__time">00:00:00</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="background">
+      <img class="background__img" />
+    </div>
+
+    <div class="welcomeTitle" style="padding-top: 70px">
+      <div class="welcomeTitle__name">
+        <h1 id="greeting" class="hidden" style="padding-top: 70px"></h1>
+      </div>
+      <div class="welcomeTitle__quotes">
+        <div id="quote">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hidden modal">
+      <div class="top-bar">
+        <img src="img/idea.png" />
+        <div class="top-bar__text">
+          <p>With A Plan..</p>
+        </div>
+      </div>
+      <form class="modal__form">
+        <img src="img/idea.png" />
+        <p class="modal__title">With A Plan..</p>
+        <div class="modal__form__input">
+          <input required maxlength="15" type="text" placeholder="name" />
+          <button>로그인</button>
+        </div>
+        <div class="modal__form__checkbox">
+          <input type="checkbox" />
+          <p>로그인 상태 유지</p>
+        </div>
+      </form>
+      <div class="bottom-bar">
+        <div class="bottom-bar__text">
+          <p>시스템 상태 | 개인정보 처리방침 | 이용 약관</p>
+          <p>Copyright ©2023 With A Plan.. Inc. 모든 권리 보유.</p>
+        </div>
+      </div>
+    </div>
+
+    <form id="todo-form">
+      <input type="text" placeholder="Write a To Do and Press Enter" required />
+    </form>
+    <ul id="todo-list"></ul>
+
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script
+      src="https://kit.fontawesome.com/15b681fb40.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

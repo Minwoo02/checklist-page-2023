@@ -1,0 +1,30 @@
+.status-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  background-color: white;
+  z-index: 5;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+.fa-bars {
+  margin-right: 10px;
+}
+
+.status-bar__column {
+  display: flex;
+  align-items: center;
+}
+
+.status-bar__column #weather span:last-child {
+  margin-right: 30px;
+}
+
+.status-bar__column #weather span:first-child {
+  margin-right: 8px;
+}
